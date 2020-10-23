@@ -1,0 +1,8 @@
+{
+	"name": "JS Date comparison",
+	"dockerFile": "Dockerfile",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	}
+}
