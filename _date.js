@@ -1,11 +1,9 @@
-// Create
-const date = new Date()
-const date1 = new Date('2019-06-01T08:00:00.000Z')
+let date
 
-// Parse
+date = new Date()
+console.log('now GMT+0', date)
 
+date = new Date()
+console.log('now GMT+Timezone', date)
 
-// Math
-
-
-// Timezone
+date = new Date('2019-06-01T08:00:00.000Z')

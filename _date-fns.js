@@ -1,3 +1,8 @@
 import { format } from 'date-fns'
 
-format(new Date(), 'MM/dd/yyyy')
+let date
+
+date = format(new Date())
+console.log('now GMT+0', date)
+
+date = format(new Date(), 'MM/dd/yyyy')
